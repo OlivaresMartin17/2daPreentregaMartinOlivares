@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Karla:ital,wght@1,300&family=Mukta:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Body*/
+body{
+    background-image: url("../img/890840.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*Header*/
+
+.nyLogo{
+    width: 100px;
+}
+.fuentesNav{
+    padding: 10px;
+}
+.encabezado{
+    background-color: #0077b6;
+}
+
+.txtA{
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    color: #caf0f8;
+    padding: 15px;
+}
+a:hover{
+    background-color: #caf0f8;
+    color: black;
+    padding: 5px;
+}
+
+
+/*Main*/
+
+main{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+.consejosPrc{
+    padding: 10px 20px;
+    background-color: #0077b6;
+    text-align: left;
+    border-radius: 10px;
+}
+.liPrc{
+    color: #caf0f8;
+   margin: 20px;
+}
+h1{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 10px;
+    color: #90e0ef;
+}
+h2{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    color: #90e0ef;
+    margin: 20px;
+}
+h3{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    color: #90e0ef;
+    margin: 20px;
+}
+p{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    color: #caf0f8;
+    margin: 10px;
+}
+
+.divBt{
+    padding: 20px;
+    background-color: #00b4d8;
+}
+
+.mapaTuristico{
+    width: 50%;
+    margin: 10px;
+}
+.contenedorMapa{
+    background-color: #0077b6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/*Footer*/
+footer{
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: right;
+    background-color: #00b4d8;
+    
+}
+
+/*Itinerarios*/
+
+.contenedorIt{
+    margin: 30px;
+    padding: 8px;
+    width: 500px;
+    background-color: #00b4d8;
+    border-radius: 20px;
+}
+
+
+
+
+
+/*iframe*/
+iframe{
+    display: block;
+    margin: auto;
+}
+
+/*formulario contacto*/
+form{
+    background-color: #00b4d8;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"]
+, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.formNyc{
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*boostrap*/
+.cajaTipPrc{
+    background-color: #0077b6;
+    padding: 15px;
+    border-radius: 20px;
+}
+.cajaTips{
+    background-color: #00b4d8;
+}
